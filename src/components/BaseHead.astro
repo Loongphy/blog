@@ -9,7 +9,10 @@ const { pathname } = Astro.url;
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+/>
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <meta name="generator" content={Astro.generator} />
 
@@ -30,4 +33,28 @@ const { pathname } = Astro.url;
 <meta property="twitter:url" content={`${SITE_URL}${pathname}`} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={new URL(image, `${SITE_URL}${pathname}`)} />
+<meta
+    property="twitter:image"
+    content={new URL(image, `${SITE_URL}${pathname}`)}
+/>
+<!-- Start of Howxm client code snippet -->
+<script>
+    function _howxm() {
+        _howxmQueue.push(arguments);
+    }
+    window._howxmQueue = window._howxmQueue || [];
+    _howxm("setAppID", "c165cabf-4be9-422c-988e-0b6bc81ee638");
+    (function () {
+        var scriptId = "howxm_script";
+        if (!document.getElementById(scriptId)) {
+            var e = document.createElement("script"),
+                t = document.getElementsByTagName("script")[0];
+            e.setAttribute("id", scriptId);
+            e.type = "text/javascript";
+            e.async = !0;
+            e.src = "https://static.howxm.com/sdk.js";
+            t.parentNode.insertBefore(e, t);
+        }
+    })();
+</script>
+<!-- End of Howxm client code snippet -->
