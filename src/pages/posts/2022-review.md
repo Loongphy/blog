@@ -5,8 +5,8 @@ pubDate: 2022-12-09
 description: '12 岁，期盼未来，如今 24，回顾过往'
 author: 'Loongphy'
 cover:
-    url: 'https://images.unsplash.com/photo-1585909695284-32d2985ac9c0'
-    square: 'https://images.unsplash.com/photo-1585909695284-32d2985ac9c0'
+    url: 'https://raw.githubusercontent.com/Loongphy/blog/main/public/images/markus-winkler--fRAIQHKcc0-unsplash.jpg'
+    square: 'https://raw.githubusercontent.com/Loongphy/blog/main/public/images/markus-winkler--fRAIQHKcc0-unsplash.jpg'
     alt: 'cover'
 tags: ["年度总结", "个人成长"] 
 theme: 'light'
