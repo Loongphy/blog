@@ -1,12 +1,13 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ArchivePostList from "../layouts/ArchivePostList.astro";
-const allPosts = await Astro.glob("./posts/*.md");
-const tags = ["年度总结","周报","个人成长","编程"];
-const posts = [];
+import { getCollection } from "astro:content";
+const allPosts = await getCollection("posts");
+const tags = ["年度总结", "周报", "个人成长", "编程"];
+const posts: any[] = [];
 
 tags.forEach((tag) => {
-  let filteredPosts = allPosts.filter((post) => post.frontmatter.tags.includes(tag));
+  let filteredPosts = allPosts.filter((post) => post.data.tags.includes(tag));
   posts.push(filteredPosts);
 });
 ---
@@ -19,7 +20,13 @@ tags.forEach((tag) => {
           return (
             <div class="archive-tag">
               <h2 class="tag-header">{tag}</h2>
-              <div class="tag-post-list">{posts[index].length !== 0 ? <ArchivePostList posts={posts[index]} /> : <div class="no-posts">暂无文章</div>}</div>
+              <div class="tag-post-list">
+                {posts[index].length !== 0 ? (
+                  <ArchivePostList posts={posts[index]} />
+                ) : (
+                  <div class="no-posts">暂无文章</div>
+                )}
+              </div>
             </div>
           );
         })

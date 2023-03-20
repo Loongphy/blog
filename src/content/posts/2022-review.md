@@ -1,5 +1,4 @@
 ---
-layout: '../../layouts/MarkdownPost.astro'
 title: '廿四，沉沦与挣扎'
 pubDate: 2022-12-09
 description: '12 岁，期盼未来，如今 24，回顾过往'

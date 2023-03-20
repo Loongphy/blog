@@ -1,5 +1,4 @@
 ---
-layout: '../../layouts/MarkdownPost.astro'
 title: '周报#3 重启、自愈'
 pubDate: 2023-03-19
 description: '终点固然璀璨乃至不朽，但沿途的平常风景亦是非常迷人'

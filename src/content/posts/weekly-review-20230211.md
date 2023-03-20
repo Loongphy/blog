@@ -1,5 +1,4 @@
 ---
-layout: '../../layouts/MarkdownPost.astro'
 title: '周报#1 ChatGPT，全知并非全能'
 pubDate: 2023-02-11
 description: '本篇周报由Bing协助完成😉'

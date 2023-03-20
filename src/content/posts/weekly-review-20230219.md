@@ -1,5 +1,4 @@
 ---
-layout: '../../layouts/MarkdownPost.astro'
 title: '周报#2 懒狗的自我修养'
 pubDate: 2023-02-19
 description: '忙啊忙，我也不知道在忙些啥🤔'
