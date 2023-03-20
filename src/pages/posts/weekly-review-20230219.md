@@ -15,7 +15,7 @@ featured: true
 
 上周的周报花费了太多无意义的时间，因此这周一直在思考如何最大程度地节省时间。
 
-# 当前问题
+## 当前问题
 
 我一直都是在Notion中创作，然后发布到微信公众号（国内备份）和个人网站（总备份……仍在建设中⛑️），但发现效率很低。
 
@@ -24,7 +24,7 @@ featured: true
 
 我需要一个简单的同步方案……Notion编辑完成，一键同步或者5分钟内手动同步到其他平台。
 
-# 临时方案
+## 临时方案
 
 目前较为简单的方式就是不加图片🤣，利用浏览器[Notion converter - 笔记转换工具 - Microsoft Edge Addons](https://microsoftedge.microsoft.com/addons/detail/notion-converter-%E7%AC%94%E8%AE%B0%E8%BD%AC%E6%8D%A2%E5%B7%A5%E5%85%B7/donmgcoapjphmanmlfhhgcnlkmikggdn)复制到微信公众号，然后通过Notion的Markdown导出同步到个人网站，这也是我目前尝试的。
 
@@ -32,6 +32,6 @@ featured: true
 
 差强人意吧，目前看到[微博Easy](https://weibo.com/1088413295)分享的自动化流程——**方糖2A1B实验**，给我打开了思路，也许可以从Mastodon方面做些文章，周报内容分享到Mastodon，然后每周自动整合成周报，期待下周的试验🥰
 
-# 书籍分享
+## 书籍分享
 
 编程类书籍《Serverless核心技术和大规模实践》，Serverless科普书，内容尚可，后面都是介绍字节跳动自家的服务，对于我这个什么都不懂的小白来说足够了。嗯，也打消了我想要把一些服务落地到Serverless的想法。
