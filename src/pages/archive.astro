@@ -1,13 +1,13 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ArchivePostList from "../layouts/ArchivePostList.astro";
-import { getCollection } from "astro:content";
+import { CollectionEntry, getCollection } from "astro:content";
 const allPosts = await getCollection("posts");
 const tags = ["年度总结", "周报", "个人成长", "编程"];
-const posts: any[] = [];
+const posts: CollectionEntry<"posts">[][] = [];
 
 tags.forEach((tag) => {
-  let filteredPosts = allPosts.filter((post) => post.data.tags.includes(tag));
+  const filteredPosts = allPosts.filter((post) => post.data.tags.includes(tag));
   posts.push(filteredPosts);
 });
 ---
