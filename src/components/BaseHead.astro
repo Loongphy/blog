@@ -40,3 +40,10 @@ const { pathname } = Astro.url;
 
 <!-- Sitemap -->
 <link rel="sitemap" href="/sitemap-index.xml" />
+
+<!-- 注入脚本 -->
+{
+    import.meta.env.HEAD_SCRIPTS ? (
+        <Fragment set:html={import.meta.env.HEAD_SCRIPTS} />
+    ) : null
+}
