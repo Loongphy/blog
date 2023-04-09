@@ -86,3 +86,7 @@ featured: true
 - 基于 ChatGLM-6B，使用微信聊天记录创建自己的数字克隆人。看完有些失落，效果并不好，我也因此放弃了自己训练数据。
 
 [我用我的微信聊天记录和 280 篇博客文章，做了我自己的数字克隆AI](https://greatdk.com/1908.html)
+
+- 利用自己的照片使用 Midjourney 生成头像
+
+[别找了，用 Midjourney 为自己画个专属头像 | Jack‘s Space](https://veryjack.com/technique/midjourney-prompt-for-avatar/)
