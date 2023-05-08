@@ -3,8 +3,8 @@ title: '周报#6 原生家庭的影响'
 pubDate: 2023-04-16
 author: 'Loongphy'
 cover:
-    url: 'https://user-images.githubusercontent.com/42089082/232309788-bcad4360-8658-4b8e-945c-1d811bc1cd54.png'
-    square: 'https://user-images.githubusercontent.com/42089082/232309788-bcad4360-8658-4b8e-945c-1d811bc1cd54.png'
+    url: 'https://user-images.githubusercontent.com/42089082/236729705-0d25809f-3c75-410e-b7c6-1524014e5c90.png'
+    square: 'https://user-images.githubusercontent.com/42089082/236729705-0d25809f-3c75-410e-b7c6-1524014e5c90.png'
     alt: 'cover'
 tags: ["周报"] 
 theme: 'light'

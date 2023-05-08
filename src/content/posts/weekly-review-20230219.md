@@ -4,8 +4,8 @@ pubDate: 2023-02-19
 description: '忙啊忙，我也不知道在忙些啥🤔'
 author: 'Loongphy'
 cover:
-    url: 'https://raw.githubusercontent.com/Loongphy/blog/main/public/images/markus-winkler--fRAIQHKcc0-unsplash.jpg'
-    square: 'https://raw.githubusercontent.com/Loongphy/blog/main/public/images/markus-winkler--fRAIQHKcc0-unsplash.jpg'
+    url: 'https://user-images.githubusercontent.com/42089082/236729705-0d25809f-3c75-410e-b7c6-1524014e5c90.png'
+    square: 'https://user-images.githubusercontent.com/42089082/236729705-0d25809f-3c75-410e-b7c6-1524014e5c90.png'
     alt: 'cover'
 tags: ["周报", "编程"] 
 theme: 'light'

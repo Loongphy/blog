@@ -4,8 +4,8 @@ pubDate: 2023-03-19
 description: '终点固然璀璨乃至不朽，但沿途的平常风景也有其迷人之处'
 author: 'Loongphy'
 cover:
-    url: 'https://raw.githubusercontent.com/Loongphy/blog/main/public/images/20230319231628.png'
-    square: 'https://raw.githubusercontent.com/Loongphy/blog/main/public/images/20230319231628.png'
+    url: 'https://user-images.githubusercontent.com/42089082/236729705-0d25809f-3c75-410e-b7c6-1524014e5c90.png'
+    square: 'https://user-images.githubusercontent.com/42089082/236729705-0d25809f-3c75-410e-b7c6-1524014e5c90.png'
     alt: 'cover'
 tags: ["周报", "个人成长"] 
 theme: 'light'
