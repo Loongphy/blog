@@ -108,13 +108,13 @@ function pipeline() {
             type: 'element',
             tagName: 'div',
             properties: {
-              className: ['pagebody  text component']
+              className: ['pagebody text component']
             },
             children: [{
               type: 'element',
               tagName: 'div',
               properties: {
-                className: ['component-content']
+                className: ['component-content slide-enter-content']
               },
               children: nodes
             }]

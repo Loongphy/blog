@@ -25,12 +25,13 @@ const dateFormated = formatDate(pubDate);
     ]}
   >
     <Header />
-    <main id="main" class="main">
+    <main id="main" class="main slide-enter">
       <section>
         <article class="article">
           <div
             class:list={[
               { "featured-header": featured, "article-header": !featured },
+              "slide-enter",
             ]}
           >
             <div class="category component">
@@ -74,7 +75,7 @@ const dateFormated = formatDate(pubDate);
           <slot />
           <div class="component">
             <div class="component-content">
-              <div class="article-copyright">
+              <div class="article-copyright slide-enter">
                 <a
                   class="content"
                   href="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh"
