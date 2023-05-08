@@ -3,3 +3,4 @@ export const SITE_DESCRIPTION = '懒狗的自我修养，还有一些个人分�
 export const SITE_EMAIL = 'Loongphy@outlook.com'
 export const SITE_NAME = '不见白衣';
 export const SITE_URL = "https://blog.loongphy.com";
+export const SITE_AUTHOR = "Loongphy"

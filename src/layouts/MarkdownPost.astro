@@ -4,10 +4,9 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 
 import { formatDate } from "../utils";
-import { SITE_TITLE } from "../consts";
 const { frontmatter } = Astro.props;
 const type = frontmatter.tags[0];
-const { pubDate, title, description, featured, slug } = frontmatter;
+const { pubDate, title, description, featured } = frontmatter;
 const dateFormated = formatDate(pubDate);
 ---
 
@@ -17,11 +16,7 @@ const dateFormated = formatDate(pubDate);
   class="js no-touch progressive-image no-reduced-motion progressive"
 >
   <head>
-    <BaseHead
-      title={`${title} - ${SITE_TITLE}`}
-      description={description}
-      image={frontmatter.cover.square}
-    />
+    <BaseHead frontmatter={frontmatter} />
   </head>
   <body
     class:list={[
@@ -102,7 +97,7 @@ const dateFormated = formatDate(pubDate);
       data-app-id="5aad625b-a77f-44ca-b348-91072adee0fb"
       data-page-id={Astro.url}
       data-page-url={Astro.url}
-      data-page-title={`${title} - ${SITE_TITLE}`}
+      data-page-title={title}
     >
     </div>
     <Footer />

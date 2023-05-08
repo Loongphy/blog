@@ -2,9 +2,14 @@
 // Import the global.css file here so that it is included on
 // all pages through the use of the <BaseHead /> component.
 import "../styles/global.css";
-const { title, description, image = "/preview.png" } = Astro.props;
-import { SITE_URL } from "../consts";
+const { frontmatter, image = "/preview.png" } = Astro.props;
+import { SITE_URL, SITE_TITLE, SITE_AUTHOR } from "../consts";
 const { pathname } = Astro.url;
+
+const title = frontmatter ? frontmatter.title : Astro.props.title;
+const description = frontmatter
+    ? frontmatter.description
+    : Astro.props.description;
 ---
 
 <!-- Global Metadata -->
@@ -18,8 +23,17 @@ const { pathname } = Astro.url;
 
 <!-- Primary Meta Tags -->
 <title>{title}</title>
+<meta name="author" content={SITE_AUTHOR} />
 <meta name="title" content={title} />
 <meta name="description" content={description} />
+<meta
+    name="keywords"
+    content={frontmatter
+        ? frontmatter.keywords
+            ? frontmatter.keywords
+            : SITE_TITLE
+        : SITE_TITLE}
+/>
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website" />
