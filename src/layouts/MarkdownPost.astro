@@ -18,12 +18,7 @@ const dateFormated = formatDate(pubDate);
   <head>
     <BaseHead frontmatter={frontmatter} />
   </head>
-  <body
-    class:list={[
-      "page-article",
-      { "theme-dark": frontmatter.theme === "dark" },
-    ]}
-  >
+  <body class="page-article">
     <Header />
     <main id="main" class="main slide-enter">
       <section>
