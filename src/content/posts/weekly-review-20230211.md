@@ -4,8 +4,8 @@ pubDate: 2023-02-11
 description: '本篇周报由Bing协助完成😉'
 author: 'Loongphy'
 cover:
-    url: 'https://user-images.githubusercontent.com/42089082/236729705-0d25809f-3c75-410e-b7c6-1524014e5c90.png'
-    square: 'https://user-images.githubusercontent.com/42089082/236729705-0d25809f-3c75-410e-b7c6-1524014e5c90.png'
+    url: 'https://github.com/Loongphy/blog/assets/42089082/a7fc10e1-64c7-4f74-b8bb-9a98fba067e8'
+    square: 'https://github.com/Loongphy/blog/assets/42089082/a7fc10e1-64c7-4f74-b8bb-9a98fba067e8'
     alt: 'cover'
 tags: ["周报", "编程"] 
 theme: 'light'
@@ -36,7 +36,7 @@ Bing最大的优势是，响应速度远超ChatGPT，而ChatGPT要想达到这�
 
 以下为Bing和ChatGPT的回答对比：
 
-![New-Bing-vs-ChatGPT](https://user-images.githubusercontent.com/42089082/236729705-0d25809f-3c75-410e-b7c6-1524014e5c90.png)
+![New-Bing-vs-ChatGPT](https://github.com/Loongphy/blog/assets/42089082/a7fc10e1-64c7-4f74-b8bb-9a98fba067e8)
 
 ## GPT相关产品
 

@@ -4,8 +4,8 @@ pubDate: 2023-04-30
 description: ''
 author: 'Loongphy'
 cover:
-    url: 'https://user-images.githubusercontent.com/42089082/235349452-0068e9e6-c399-41fc-b17c-b926c1b243a5.png'
-    square: 'https://user-images.githubusercontent.com/42089082/235349452-0068e9e6-c399-41fc-b17c-b926c1b243a5.png'
+    url: 'https://github.com/Loongphy/blog/assets/42089082/5ebadd3f-7032-4f9c-90fc-e7f898c0ebd0'
+    square: 'https://github.com/Loongphy/blog/assets/42089082/5ebadd3f-7032-4f9c-90fc-e7f898c0ebd0'
     alt: 'cover'
 tags: ["玩物尚志", "ChatGPT"] 
 theme: 'light'
