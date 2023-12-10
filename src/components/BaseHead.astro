@@ -40,17 +40,14 @@ const description =
 <meta property="og:url" content={`${SITE_URL}${pathname}`} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image, `${SITE_URL}${pathname}`)} />
+<meta property="og:image" content={image} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={`${SITE_URL}${pathname}`} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta
-    property="twitter:image"
-    content={new URL(image, `${SITE_URL}${pathname}`)}
-/>
+<meta property="twitter:image" content={image} />
 
 <!-- Sitemap -->
 <link rel="sitemap" href="/sitemap-index.xml" />
