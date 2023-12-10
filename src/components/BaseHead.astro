@@ -3,13 +3,13 @@
 // all pages through the use of the <BaseHead /> component.
 import "../styles/global.css";
 const { frontmatter, image = "/preview.png" } = Astro.props;
-import { SITE_URL, SITE_TITLE, SITE_AUTHOR } from "../consts";
+import { SITE_URL, SITE_TITLE, SITE_AUTHOR, SITE_DESCRIPTION } from "../consts";
 const { pathname } = Astro.url;
 
 const title = frontmatter ? frontmatter.title : Astro.props.title;
-const description = frontmatter
-    ? frontmatter.description
-    : Astro.props.description;
+const description =
+    (frontmatter ? frontmatter.description : Astro.props.description) ||
+    SITE_DESCRIPTION;
 ---
 
 <!-- Global Metadata -->
