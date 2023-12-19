@@ -3213,7 +3213,7 @@ html.js .tile.large-loaded .image {
 .tile.tile-hero .tile__media,
 .tile.tile-hero .tile__image-container {
   width: 100%;
-  height: auto;
+  height: 200px;
   min-height: 362px;
   flex-basis: 643px;
   flex-shrink: 1
@@ -3250,7 +3250,7 @@ html.js .tile.large-loaded .image {
   .tile.tile-hero .tile__media,
   .tile.tile-hero .tile__image-container {
     width: 100%;
-    height: auto;
+    height: 200px;
     min-height: 255px;
     flex-basis: 453px;
     flex-shrink: 1
@@ -3288,7 +3288,7 @@ html.js .tile.large-loaded .image {
   .tile.tile-hero .tile__media,
   .tile.tile-hero .tile__image-container {
     width: 100%;
-    height: auto;
+    height: 200px;
     min-height: auto;
     flex-basis: auto;
     flex-shrink: 1;
