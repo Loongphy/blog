@@ -1,5 +1,5 @@
 ---
-title: 'ChatGPT Prompt Engineering for Developers 笔记 '
+title: 'ChatGPT Prompt Engineering for Developers 笔记'
 pubDate: 2023-04-30
 description: ''
 author: 'Loongphy'
