@@ -5,7 +5,7 @@ import MoreTile from "../layouts/MoreTile.astro";
 import { getCollection } from "astro:content";
 const allPosts = await getCollection("posts");
 allPosts.sort(
-  (a, b) => Date.parse(b.data.pubDate) - Date.parse(a.data.pubDate)
+  (a, b) => Date.parse(b.data.pubDate) - Date.parse(a.data.pubDate),
 );
 ---
 
@@ -13,55 +13,22 @@ allPosts.sort(
   <section class="everydayfeed">
     <div class="section-content">
       <h2 class="section-head">最新文章</h2>
-      <ul role="list" class="section-tiles">
-        {
-          // tile-hero
-          allPosts.slice(0, 1).map((post) => {
-            return (
-              <Tile
-                title={post.data.title}
-                href={"/posts/" + post.slug}
-                date={post.data.pubDate}
-                tags={post.data.tags}
-                cover={post.data.cover.url}
-                level="1"
-              />
-            );
-          })
-        }
-
-        {
-          // tile-2up
-          allPosts.slice(1, 5).map((post) => {
-            return (
-              <Tile
-                title={post.data.title}
-                href={"/posts/" + post.slug}
-                date={post.data.pubDate}
-                tags={post.data.tags}
-                cover={post.data.cover.url}
-                level="2"
-              />
-            );
-          })
-        }
-
-        {
-          // tile-3up
-          allPosts.slice(5, 11).map((post) => {
-            return (
-              <Tile
-                title={post.data.title}
-                href={"/posts/" + post.slug}
-                date={post.data.pubDate}
-                tags={post.data.tags}
-                cover={post.data.cover.url}
-                level="3"
-              />
-            );
-          })
-        }
-      </ul>
+      {
+        // tile-hero
+        allPosts.slice(0, 1).map((post) => {
+          return (
+            <Tile
+              class="section-tiles"
+              title={post.data.title}
+              href={"/posts/" + post.slug}
+              date={post.data.pubDate}
+              tags={post.data.tags}
+              cover={post.data.cover.url}
+              level="1"
+            />
+          );
+        })
+      }
     </div>
   </section>
 
